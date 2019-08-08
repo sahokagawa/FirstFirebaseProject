@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		3115DB7122FA6E2700538FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB6F22FA6E2700538FAE /* Main.storyboard */; };
 		3115DB7322FA6E2700538FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7222FA6E2700538FAE /* Assets.xcassets */; };
 		3115DB7622FA6E2700538FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7422FA6E2700538FAE /* LaunchScreen.storyboard */; };
+		3115DB7E22FA717900538FAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7D22FA717900538FAE /* GoogleService-Info.plist */; };
+		FFCCFDF2BFC3C68D35721C2C /* Pods_GoogleSighInProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5A5A2683AE7F6FDF44728F /* Pods_GoogleSighInProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		3115DB7222FA6E2700538FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3115DB7522FA6E2700538FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3115DB7722FA6E2700538FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3115DB7D22FA717900538FAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		788199E300438101490B42D0 /* Pods-GoogleSighInProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSighInProject.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject.debug.xcconfig"; sourceTree = "<group>"; };
+		87C5A816BDF31918508945F6 /* Pods-GoogleSighInProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSighInProject.release.xcconfig"; path = "Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject.release.xcconfig"; sourceTree = "<group>"; };
+		BB5A5A2683AE7F6FDF44728F /* Pods_GoogleSighInProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSighInProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCCFDF2BFC3C68D35721C2C /* Pods_GoogleSighInProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				3115DB6A22FA6E2700538FAE /* GoogleSighInProject */,
 				3115DB6922FA6E2700538FAE /* Products */,
+				ADC4A79FD302BA5653C607BA /* Pods */,
+				7E891E6D8627377E80BF2E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				3115DB7222FA6E2700538FAE /* Assets.xcassets */,
 				3115DB7422FA6E2700538FAE /* LaunchScreen.storyboard */,
 				3115DB7722FA6E2700538FAE /* Info.plist */,
+				3115DB7D22FA717900538FAE /* GoogleService-Info.plist */,
 			);
 			path = GoogleSighInProject;
+			sourceTree = "<group>";
+		};
+		7E891E6D8627377E80BF2E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5A5A2683AE7F6FDF44728F /* Pods_GoogleSighInProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC4A79FD302BA5653C607BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788199E300438101490B42D0 /* Pods-GoogleSighInProject.debug.xcconfig */,
+				87C5A816BDF31918508945F6 /* Pods-GoogleSighInProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3115DB7A22FA6E2700538FAE /* Build configuration list for PBXNativeTarget "GoogleSighInProject" */;
 			buildPhases = (
+				094BB6AFFFCDB7D8097374A2 /* [CP] Check Pods Manifest.lock */,
 				3115DB6422FA6E2700538FAE /* Sources */,
 				3115DB6522FA6E2700538FAE /* Frameworks */,
 				3115DB6622FA6E2700538FAE /* Resources */,
+				33436B75A531AE8A034B1E17 /* [CP] Embed Pods Frameworks */,
+				AC893386EB75827E92D33D45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,10 +155,70 @@
 				3115DB7622FA6E2700538FAE /* LaunchScreen.storyboard in Resources */,
 				3115DB7322FA6E2700538FAE /* Assets.xcassets in Resources */,
 				3115DB7122FA6E2700538FAE /* Main.storyboard in Resources */,
+				3115DB7E22FA717900538FAE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		094BB6AFFFCDB7D8097374A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleSighInProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33436B75A531AE8A034B1E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC893386EB75827E92D33D45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3115DB6422FA6E2700538FAE /* Sources */ = {
@@ -280,6 +370,7 @@
 		};
 		3115DB7B22FA6E2700538FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788199E300438101490B42D0 /* Pods-GoogleSighInProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +389,7 @@
 		};
 		3115DB7C22FA6E2700538FAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C5A816BDF31918508945F6 /* Pods-GoogleSighInProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
