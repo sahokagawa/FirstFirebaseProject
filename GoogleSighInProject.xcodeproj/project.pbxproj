@@ -13,6 +13,7 @@
 		3115DB7322FA6E2700538FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7222FA6E2700538FAE /* Assets.xcassets */; };
 		3115DB7622FA6E2700538FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7422FA6E2700538FAE /* LaunchScreen.storyboard */; };
 		3115DB7E22FA717900538FAE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3115DB7D22FA717900538FAE /* GoogleService-Info.plist */; };
+		318C1F1722FBC88C0051FA3A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C1F1622FBC88C0051FA3A /* ProfileViewController.swift */; };
 		FFCCFDF2BFC3C68D35721C2C /* Pods_GoogleSighInProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5A5A2683AE7F6FDF44728F /* Pods_GoogleSighInProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		3115DB7522FA6E2700538FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3115DB7722FA6E2700538FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3115DB7D22FA717900538FAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		318C1F1622FBC88C0051FA3A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		788199E300438101490B42D0 /* Pods-GoogleSighInProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSighInProject.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject.debug.xcconfig"; sourceTree = "<group>"; };
 		87C5A816BDF31918508945F6 /* Pods-GoogleSighInProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSighInProject.release.xcconfig"; path = "Target Support Files/Pods-GoogleSighInProject/Pods-GoogleSighInProject.release.xcconfig"; sourceTree = "<group>"; };
 		BB5A5A2683AE7F6FDF44728F /* Pods_GoogleSighInProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSighInProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,7 @@
 		3115DB5F22FA6E2700538FAE = {
 			isa = PBXGroup;
 			children = (
+				318C1F1622FBC88C0051FA3A /* ProfileViewController.swift */,
 				3115DB6A22FA6E2700538FAE /* GoogleSighInProject */,
 				3115DB6922FA6E2700538FAE /* Products */,
 				ADC4A79FD302BA5653C607BA /* Pods */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318C1F1722FBC88C0051FA3A /* ProfileViewController.swift in Sources */,
 				3115DB6E22FA6E2700538FAE /* ViewController.swift in Sources */,
 				3115DB6C22FA6E2700538FAE /* AppDelegate.swift in Sources */,
 			);

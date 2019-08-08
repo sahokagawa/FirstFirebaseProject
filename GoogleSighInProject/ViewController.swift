@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+//        おまじない
+        GIDSignIn.sharedInstance()?.uiDelegate = self
+        GIDSignIn.sharedInstance()?.delegate = self
     }
 
 
@@ -48,6 +52,11 @@ extension ViewController: GIDSignInDelegate, GIDSignInUIDelegate {
                 print(error.localizedDescription)
             } else {
                 print("成功")
+//                画面遷移
+                self.performSegue(withIdentifier: "toHome", sender: nil)
+//                selfつけんとエラーでる
+//                self 自分のこと、クラスの実態のこと
+//                AuthじゃなくてViewContorollerViewContorollerだよ！！！
             }
             
         }
