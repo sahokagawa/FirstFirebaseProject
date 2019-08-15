@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
 //        おまじない
         GIDSignIn.sharedInstance()?.uiDelegate = self
+        
         GIDSignIn.sharedInstance()?.delegate = self
     }
 
